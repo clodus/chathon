@@ -1,4 +1,4 @@
-from RulesList import RulesList
+from ruleslist import RulesList
 
 if __name__ == '__main__':
   rules = RulesList('rules.json')

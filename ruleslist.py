@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
 from typing import List
-from Rule import Rule
+from rule import Rule
 import json
 
 @dataclass
 class RulesList :
   filename : str
-  rules : List[Rule] = field(default_factory=List)
+  rules : List[Rule] = field(default_factory=list)
   
   def readRules(self) -> None:
     try:
