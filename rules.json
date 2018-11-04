@@ -1,0 +1,20 @@
+{
+  "rules":[
+      {
+        "ruleName":"salutations",
+        "patterns":["salut","bonjour","hello","coucou"],
+        "responses":["Salut à toi !","Bonjour"]
+      },
+      {
+        "ruleName":"quitter",
+        "patterns":["au revoir","ciao","a plus tard"],
+        "responses":["A plus tard","Au revoir"]
+      },
+      {
+        "ruleName":"heure",
+        "patterns":["quelle heure est il","peux-tu me donner l'heure"],
+        "responses":["Il est {hour}:{mn}"]
+      }
+    ],
+   "unknown":["Pardon ?","Je ne comprends pas..."]
+}
